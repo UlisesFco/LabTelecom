@@ -1,2 +1,2 @@
 # LabTelecom
-Archivos del laboratorio de telecomunicaciones
+Archivos del laboratorio de telecomunicaciones del Instituto Tecnológico Autónomo de México (ITAM)
