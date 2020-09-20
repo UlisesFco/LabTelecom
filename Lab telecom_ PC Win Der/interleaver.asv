@@ -1,0 +1,14 @@
+function inter = interleaver(type,i,data)
+
+if type == "short" && length(data) >= 1024 && length(data) < 15120
+    inter = 31*i + mod(64*i^2,len(data));
+elseif type == "long" && length(data) >= 15120
+    for i=1:length(data) 
+        inter = 11*i + mod(21*i^2,len(data));
+    end
+else
+     error('Invalid input arguments')
+end
+
+end
+

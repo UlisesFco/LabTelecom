@@ -1,0 +1,6 @@
+function scrambled_data = scrambler(int_data)
+% data is already interleaved
+for i =1:length(int_data)
+    scrambled_data(i) = mod(int_data(i)|gold_seq(mod()),2)
+end
+end
